@@ -10,7 +10,7 @@ import { useTitle } from "./../hooks/useTitle.jsx";
 
 const Menu = () => {
   useTitle("Меню");
-  useBackgroundColor("bg-pink-500");
+  useBackgroundColor("bg-red-500");
 
   const itemsPerPage = 8;
   const [currentPage, setCurrentPage] = useState(1);
